@@ -1,0 +1,22 @@
+{
+  "name": "syndio-web-qa",
+  "version": "1.0.0",
+  "description": "Automation test scripts assignment for Syndio dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuminitaL/syndio-web-qa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuminitaL/syndio-web-qa/issues"
+  },
+  "homepage": "https://github.com/LuminitaL/syndio-web-qa#readme",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  }
+}
