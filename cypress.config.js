@@ -15,6 +15,7 @@ module.exports = defineConfig({
   numTestsKeptInMemory: 15,
   chromeWebSecurity: false,
   e2e: {
+    baseUrl: 'http://localhost:3000',
     setupNodeEvents(on, config) {
     },
     specPattern: 'src/specs/**/*.cy.{js,jsx}',

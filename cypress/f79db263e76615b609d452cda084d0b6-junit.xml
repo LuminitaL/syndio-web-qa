@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.114" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-12-22T16:59:49" tests="0" file="src/specs/dashboard.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E: Dashboard" timestamp="2022-12-22T16:59:49" tests="1" time="17.097" failures="1">
+    <testcase name="E2E: Dashboard Dashboard: change group by selecting dropdown options" time="0.000" classname="Dashboard: change group by selecting dropdown options">
+      <failure message="Timed out retrying after 15000ms: expected &apos;&lt;strong&gt;&apos; to have text &apos;86¢&apos;, but the text was &apos;96¢&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 15000ms: expected '<strong>' to have text '86¢', but the text was '96¢'
+    at AppPage.childShould (webpack:///./src/common/page-objects/app.po.js:35:34)
+    at Context.eval (webpack:///./src/specs/dashboard.cy.js:28:20)
+
+      + expected - actual
+
+      -'96¢'
+      +'86¢'
+      ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
